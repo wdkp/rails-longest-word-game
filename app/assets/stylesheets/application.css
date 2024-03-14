@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+#list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+#list ul {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 10px; /* Add spacing between list items */
+}
+
+.form-container {
+  text-align: center; /* Center align the content inside the container */
+  margin-top: 20px; /* Add some top margin for spacing */
+}
